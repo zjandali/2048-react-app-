@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# 2048 Game React Component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React implementation of the popular 2048 game. It provides a simple, customizable component that you can easily integrate into your React applications.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Classic 2048 game mechanics
+- 4x4 grid layout
+- Keyboard controls (arrow keys)
+- On-screen button controls
+- Game state management (playing, won, lost)
+- No external dependencies
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository or copy the `Game2048.js` file into your React project.
+2. Make sure you have React installed in your project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+To use the 2048 game component in your React application:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Import the component into your desired file:
 
-### `npm run build`
+```jsx
+import Game2048 from './path/to/Game2048';
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Use the component in your JSX:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```jsx
+function App() {
+  return (
+    <div className="App">
+      <Game2048 />
+    </div>
+  );
+}
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Customization
 
-### `npm run eject`
+The game uses inline styles for easy customization. You can modify the styles directly in the `Game2048.js` file to change colors, sizes, or layouts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## How to Play
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Use the arrow keys on your keyboard to move the tiles.
+- Alternatively, use the on-screen arrow buttons to move the tiles.
+- When two tiles with the same number touch, they merge into one!
+- Create a tile with the number 2048 to win the game.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome! Feel free to check [issues page](link-to-your-issues-page) if you want to contribute.
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
