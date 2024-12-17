@@ -1,6 +1,7 @@
 # 2048 Game React Component
 
 This project is a React implementation of the popular 2048 game. It provides a simple, customizable component that you can easily integrate into your React applications.
+live: https://zjandali.github.io/2048-react-app-/
 
 ## Features
 
